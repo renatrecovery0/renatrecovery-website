@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="R2 RenatRecovery — персональные тренировки, мини-группы, питание и восстановление в Праге.">
+  <title>R2 RenatRecovery | KEEP MOVING</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topline"><span data-i18n="topline">PRAGUE · PERSONAL TRAINING · PERFORMANCE · RECOVERY</span></div>
+  <header class="header">
+    <a class="logo" href="#top" aria-label="R2 Keep Moving">
+      <img src="r2-mark.svg" alt="">
+      <span><b>R2</b><small>KEEP MOVING</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#services" data-i18n="navServices">Направления</a>
+      <a href="#about" data-i18n="navAbout">О тренере</a>
+      <a href="#pricing" data-i18n="navPricing">Пакеты</a>
+      <a href="#contact" data-i18n="navContact">Контакты</a>
+    </nav>
+    <div class="header-right">
+      <div class="languages"><button class="lang active" data-lang="ru">RU</button><button class="lang" data-lang="cz">CZ</button><button class="lang" data-lang="en">EN</button></div>
+      <a class="btn btn-white btn-small" href="#booking" data-i18n="book">Записаться</a>
+      <button class="hamburger" id="hamburger" aria-label="Открыть меню">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="kicker"><i></i><span data-i18n="heroKicker">RENAT RECOVERY · PRAGUE</span></div>
+        <div class="hero-mark"><img src="r2-mark.svg" alt="R2"></div>
+        <p class="hero-slogan">KEEP MOVING<span>.</span></p>
+        <h1 data-i18n="heroTitle">СТАНЬ СИЛЬНЕЕ.<br>ДВИГАЙСЯ ЛУЧШЕ.</h1>
+        <p class="hero-lead" data-i18n="heroLead">Персональные тренировки, небольшие группы, питание и восстановление. Системный подход к движению и прогрессу.</p>
+        <div class="hero-actions"><a class="btn btn-white" href="#services" data-i18n="explore">Выбрать направление ↘</a><a class="underlink" href="#about" data-i18n="aboutLink">Познакомиться с тренером</a></div>
+        <div class="hero-foot"><span>01 / 05</span><span data-i18n="heroFoot">TRAIN WITH PURPOSE. RECOVER WITH CARE.</span></div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1400&q=85" alt="Пример фотографии тренировочного пространства">
+        <div class="image-tag">TRAINING / PRAHA</div>
+      </div>
+    </section>
+
+    <section class="ticker"><div>STRENGTH <b>✳</b> MOBILITY <b>✳</b> CONTROL <b>✳</b> RECOVERY <b>✳</b> PROGRESS <b>✳</b> KEEP MOVING <b>✳</b></div></section>
+
+    <section class="section" id="services">
+      <div class="section-head">
+        <div><div class="kicker"><i></i><span data-i18n="servicesKicker">НАПРАВЛЕНИЯ</span></div><h2 data-i18n="servicesTitle">НАЙДИ СВОЙ<br><em>ФОРМАТ.</em></h2></div>
+        <p data-i18n="servicesIntro">Выбери направление, чтобы узнать, как проходит работа, кому подходит формат и как начать.</p>
+      </div>
+      <div class="cards">
+        <button class="service-card tall" data-service="personal">
+          <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1100&q=80" alt="Пример: персональная тренировка">
+          <span class="shade"></span><span class="card-meta">01 / PERSONAL</span><span class="card-bottom"><b>PERSONAL<br>TRAINING</b><i>↗</i></span>
+        </button>
+        <button class="service-card" data-service="group">
+          <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80" alt="Пример: групповая тренировка">
+          <span class="shade"></span><span class="card-meta">02 / R2</span><span class="card-bottom"><b>R2 GROUP</b><i>↗</i></span>
+        </button>
+        <button class="service-card" data-service="nutrition">
+          <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=900&q=80" alt="Пример: питание">
+          <span class="shade"></span><span class="card-meta">03 / NUTRITION</span><span class="card-bottom"><b>NUTRITION</b><i>↗</i></span>
+        </button>
+        <button class="service-card" data-service="recovery">
+          <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=900&q=80" alt="Пример: массаж и восстановление">
+          <span class="shade"></span><span class="card-meta">04 / RECOVERY</span><span class="card-bottom"><b>MASSAGE &<br>RECOVERY</b><i>↗</i></span>
+        </button>
+        <button class="service-card" data-service="online">
+          <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80" alt="Пример: онлайн-тренировка">
+          <span class="shade"></span><span class="card-meta">05 / ONLINE</span><span class="card-bottom"><b>ONLINE<br>PROGRAMS</b><i>↗</i></span>
+        </button>
+      </div>
+      <p class="sample-note" data-i18n="sampleNote">Фотографии временные, используются как образцы композиции. Позже заменим их твоими фотографиями.</p>
+    </section>
+
+    <section class="feature" id="about">
+      <div class="feature-image"><img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=1200&q=85" alt="Пример фотографии тренера и тренировочного пространства"><span>R2 / KEEP MOVING</span></div>
+      <div class="feature-copy">
+        <div class="kicker"><i></i><span data-i18n="aboutKicker">О ТРЕНЕРЕ</span></div>
+        <h2 data-i18n="aboutTitle">ДВИЖЕНИЕ —<br><em>ЭТО СИСТЕМА.</em></h2>
+        <p data-i18n="aboutText">Я Renat. Работаю с физической подготовкой, функциональным движением и восстановлением. В основе моего подхода — оценка исходного уровня, понятный план, техника и постепенный прогресс.</p>
+        <div class="signature">RENAT <span>/ COACH</span></div>
+        <a class="underlink" href="#booking" data-i18n="aboutCta">Обсудить свои цели ↗</a>
+      </div>
+    </section>
+
+    <section class="section pricing" id="pricing">
+      <div class="section-head">
+        <div><div class="kicker"><i></i><span data-i18n="pricingKicker">ПАКЕТЫ</span></div><h2 data-i18n="pricingTitle">ВЫБЕРИ СВОЙ<br><em>РИТМ.</em></h2></div>
+        <p data-i18n="pricingIntro">Пакеты персональных тренировок рассчитаны на регулярную работу. Подробности и расписание согласуем перед оплатой.</p>
+      </div>
+      <div class="price-cards">
+        <article><span>01 / PERSONAL</span><h3>8 + 1</h3><p data-i18n="pack1">8 тренировок + 1 бонусная</p><strong class="price-value">6 000 Kč</strong><a href="#booking" data-i18n="askPrice">Записаться ↗</a></article>
+        <article class="price-dark"><span>02 / PERSONAL</span><h3>10 + 2</h3><p data-i18n="pack2">10 тренировок + 2 бонусные</p><strong class="price-value">7 000 Kč</strong><a href="#booking" data-i18n="askPrice">Записаться ↗</a></article>
+        <article><span>03 / PERSONAL</span><h3>12 + 3</h3><p data-i18n="pack3">12 тренировок + 3 бонусные</p><strong class="price-value">8 000 Kč</strong><a href="#booking" data-i18n="askPrice">Записаться ↗</a></article>
+      </div>
+      <div class="other-prices">
+        <article><span>R2 GROUP</span><b>3 300 Kč</b><small>12 занятий / месяц</small></article>
+        <article><span>NUTRITION</span><b>490 Kč</b><small>План питания</small></article>
+        <article><span>MASSAGE & RECOVERY</span><b>1 490 Kč</b><small>Сеанс массажа</small></article>
+        <article><span>ONLINE PROGRAMS</span><b>590 Kč</b><small>Онлайн-программа</small></article>
+      </div>
+      <p class="pricing-foot" data-i18n="pricingFoot">Стоимость указана в чешских кронах. Детали формата и записи согласуем заранее.</p>
+    </section>
+
+    <section class="booking" id="booking">
+      <div class="booking-copy"><div class="kicker"><i></i><span data-i18n="bookingKicker">СЛЕДУЮЩИЙ ШАГ</span></div><h2 data-i18n="bookingTitle">НАЧНЁМ<br><em>ДВИГАТЬСЯ?</em></h2><p data-i18n="bookingText">Оставь имя, контакт и направление. Заявка откроется в WhatsApp с уже подготовленным сообщением.</p>
+        <div class="contact-lines"><a href="mailto:renat.recovery@gmail.com">renat.recovery@gmail.com</a><a href="tel:+420725096860">+420 725 096 860</a></div>
+      </div>
+      <form id="bookingForm">
+        <label><span data-i18n="formName">ИМЯ</span><input name="name" required autocomplete="name" placeholder="Твоё имя"></label>
+        <label><span data-i18n="formContact">ТЕЛЕФОН ИЛИ EMAIL</span><input name="contact" required placeholder="+420 / email"></label>
+        <label><span data-i18n="formService">НАПРАВЛЕНИЕ</span><select name="service" required><option value="" data-i18n="choose">Выбери направление</option><option>Personal Training</option><option>R2 Group</option><option>Nutrition</option><option>Massage & Recovery</option><option>Online Programs</option></select></label>
+        <label><span data-i18n="formMessage">СООБЩЕНИЕ</span><textarea name="message" rows="3" placeholder="Цели, удобные дни, вопросы..."></textarea></label>
+        <button class="btn btn-white submit" type="submit"><span data-i18n="send">Отправить заявку</span> ↗</button>
+        <p id="formStatus" class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <a class="logo footer-logo" href="#top"><img src="r2-mark.svg" alt=""><span><b>R2</b><small>KEEP MOVING</small></span></a>
+    <div class="footer-contacts"><a href="mailto:renat.recovery@gmail.com">renat.recovery@gmail.com</a><a href="tel:+420725096860">+420 725 096 860</a></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> RENAT RECOVERY</span><span>PRAGUE · CZECH REPUBLIC</span><a href="#top">BACK TO TOP ↑</a></div>
+  </footer>
+
+  <dialog id="serviceDialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Close">×</button>
+    <div class="dialog-kicker" id="dialogKicker">R2 / SERVICE</div><h2 id="dialogTitle"></h2><p id="dialogText"></p><ul id="dialogBullets"></ul><a class="btn btn-white" href="#booking" id="dialogCta">Записаться ↗</a>
+  </dialog>
+  <script src="app.js"></script>
+</body>
+</html>
