@@ -63,7 +63,7 @@ const themeColor=$("#themeColor");
 function applyTheme(theme){
   const dark=theme==="dark";
   document.documentElement.dataset.theme=dark?"dark":"light";
-  document.querySelectorAll("img[src*="renat-recovery-logo"]").forEach(img=>{img.src=dark?"renat-recovery-logo-dark.svg":"renat-recovery-logo-light.svg";});
+  document.querySelectorAll('img[src*="renat-recovery-logo"]').forEach(img=>{img.src=dark?"renat-recovery-logo-dark.svg":"renat-recovery-logo-light.svg";});
   if(themeToggle){ themeToggle.querySelector(".theme-icon").textContent=dark?"☀":"☾"; themeToggle.setAttribute("aria-label",dark?"Включить светлую тему":"Включить тёмную тему"); }
   if(themeColor) themeColor.content=dark?"#0b0c0e":"#f6f7f5";
   localStorage.setItem("rr-theme",dark?"dark":"light");

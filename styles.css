@@ -72,3 +72,15 @@ dialog{background:var(--surface);color:var(--text);border-color:var(--line)}
 .theme-icon{transform:translateY(-.5px)}
 .logo img,.hero-mark img,.footer-logo img{transition:opacity .2s ease}
 @media(max-width:800px){.theme-toggle{width:38px;height:28px}.header-right{gap:8px}}
+
+
+/* Theme switch icon: CSS-only, never uses emoji glyphs. */
+.theme-toggle{position:relative;overflow:hidden}
+.theme-icon{display:block;width:14px;height:14px;border-radius:50%;background:currentColor;position:relative;transition:transform .25s ease,background .25s ease}
+.theme-icon:after{content:"";position:absolute;width:12px;height:12px;border-radius:50%;background:var(--surface);top:-3px;right:-3px;transition:background .25s ease}
+:root[data-theme="dark"] .theme-icon{background:var(--accent);}
+:root[data-theme="dark"] .theme-icon:after{background:var(--surface)}
+:root[data-theme="dark"] .theme-toggle{border-color:#4a4d53}
+:root[data-theme="dark"] .theme-toggle:hover{border-color:var(--accent)}
+:root[data-theme="light"] .theme-icon{background:var(--text);}
+:root[data-theme="light"] .theme-icon:after{background:var(--surface)}
