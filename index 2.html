@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7f5" id="themeColor">
+  <meta name="description" content="R2 RenatRecovery — персональные тренировки, мини-группы, питание, массаж и восстановление в Праге.">
+  <title>R2 RenatRecovery | KEEP MOVING</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topline"><span data-i18n="topline">PRAGUE · PERSONAL TRAINING · PERFORMANCE · RECOVERY</span></div>
+  <header class="header">
+    <a class="brand" href="#top" aria-label="Renat Recovery">RENAT RECOVERY</a>
+    <nav class="nav" id="nav">
+      <a href="#services" data-i18n="navServices">Направления</a>
+      <a href="#about" data-i18n="navAbout">О тренере</a>
+      <a href="#pricing" data-i18n="navPricing">Пакеты</a>
+      <a href="#contact" data-i18n="navContact">Контакты</a>
+    </nav>
+    <div class="header-right">
+      <div class="languages"><button class="lang active" data-lang="ru">RU</button><button class="lang" data-lang="cz">CZ</button><button class="lang" data-lang="en">EN</button><button class="lang" data-lang="ar">العربية</button></div>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Переключить тему"><span class="theme-icon" aria-hidden="true"></span></button>
+      <a class="btn btn-white btn-small" href="#booking" data-i18n="book">Записаться</a>
+      <button class="hamburger" id="hamburger" aria-label="Открыть меню">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="kicker"><i></i><span data-i18n="heroKicker">RENAT RECOVERY · PRAGUE</span></div>
+        <div class="hero-brand">RENAT RECOVERY</div>
+        <p class="hero-slogan" data-i18n="slogan">KEEP MOVING<span>.</span></p>
+        <h1 data-i18n="heroTitle">СТАНЬ СИЛЬНЕЕ.<br>ДВИГАЙСЯ ЛУЧШЕ.</h1>
+        <p class="hero-lead" data-i18n="heroLead">Персональные тренировки, небольшие группы, питание и восстановление. Системный подход к движению и прогрессу.</p>
+        <div class="hero-actions"><a class="btn btn-white" href="#services" data-i18n="explore">Выбрать направление ↘</a><a class="underlink" href="#about" data-i18n="aboutLink">Познакомиться с тренером</a></div>
+        <div class="hero-foot"><span>01 / 05</span><span data-i18n="heroFoot">TRAIN WITH PURPOSE. RECOVER WITH CARE.</span></div>
+      </div>
+      <div class="hero-image"><img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1400&q=85" alt="Training space"><div class="image-tag" data-i18n="imageTag">ТРЕНИРОВКИ / ПРАГА</div></div>
+    </section>
+
+    <section class="ticker"><div>STRENGTH <b>✳</b> MOBILITY <b>✳</b> CONTROL <b>✳</b> RECOVERY <b>✳</b> PROGRESS <b>✳</b> KEEP MOVING <b>✳</b></div></section>
+
+    <section class="section" id="services">
+      <div class="section-head"><div><div class="kicker"><i></i><span data-i18n="servicesKicker">НАПРАВЛЕНИЯ</span></div><h2 data-i18n="servicesTitle">НАЙДИ СВОЙ<br><em>ФОРМАТ.</em></h2></div><p data-i18n="servicesIntro">Выбери направление, чтобы узнать, как проходит работа, кому подходит формат и как начать.</p></div>
+      <div class="cards">
+        <button class="service-card tall" data-service="personal"><img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1100&q=80" alt="Personal training"><span class="shade"></span><span class="card-meta" data-i18n="cardPersonalMeta">01 / PERSONAL</span><span class="card-bottom"><b data-i18n="cardPersonal">PERSONAL<br>TRAINING</b></span></button>
+        <button class="service-card" data-service="group"><img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80" alt="Group training"><span class="shade"></span><span class="card-meta" data-i18n="cardGroupMeta">02 / R2</span><span class="card-bottom"><b data-i18n="cardGroup">R2 GROUP</b></span></button>
+        <button class="service-card" data-service="nutrition"><img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=900&q=80" alt="Nutrition"><span class="shade"></span><span class="card-meta" data-i18n="cardNutritionMeta">03 / NUTRITION</span><span class="card-bottom"><b data-i18n="cardNutrition">NUTRITION</b></span></button>
+        <button class="service-card" data-service="recovery"><img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=900&q=80" alt="Massage and recovery"><span class="shade"></span><span class="card-meta" data-i18n="cardRecoveryMeta">04 / RECOVERY</span><span class="card-bottom"><b data-i18n="cardRecovery">MASSAGE &<br>RECOVERY</b></span></button>
+        <button class="service-card" data-service="online"><img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80" alt="Online training"><span class="shade"></span><span class="card-meta" data-i18n="cardOnlineMeta">05 / ONLINE</span><span class="card-bottom"><b data-i18n="cardOnline">ONLINE<br>PROGRAMS</b></span></button>
+      </div>
+      <p class="sample-note" data-i18n="sampleNote">Фотографии временные, используются как образцы композиции. Позже заменим их твоими фотографиями.</p>
+    </section>
+
+    <section class="path-section" id="path">
+      <div class="section-head"><div><div class="kicker"><i></i><span data-i18n="pathKicker">R2 PATH</span></div><h2 data-i18n="pathTitle">BUILD → MOVE →<br><em>RECOVER.</em></h2></div><p data-i18n="pathIntro">Три направления, которые можно соединить в одну персональную систему.</p></div>
+      <div class="path-grid">
+        <article><span>01</span><h3 data-i18n="buildTitle">BUILD</h3><p data-i18n="buildText">Сила, физическая форма и подготовка к нагрузке.</p><a href="#pricing" data-i18n="buildCta">Выбрать тренировку ↗</a></article>
+        <article><span>02</span><h3 data-i18n="moveTitle">MOVE</h3><p data-i18n="moveText">Мобильность, контроль, стабильность и качество движения.</p><a href="#booking" data-i18n="moveCta">Обсудить цель ↗</a></article>
+        <article><span>03</span><h3 data-i18n="recoverTitle">RECOVER</h3><p data-i18n="recoverText">Массаж, восстановление и разумное управление нагрузкой.</p><a href="#massage" data-i18n="recoverCta">Посмотреть массаж ↗</a></article>
+      </div>
+    </section>
+
+    <section class="feature" id="about">
+      <div class="feature-image"><img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=1200&q=85" alt="Coach and training space"><span data-i18n="featureTag">R2 / KEEP MOVING</span></div>
+      <div class="feature-copy"><div class="kicker"><i></i><span data-i18n="aboutKicker">О ТРЕНЕРЕ</span></div><h2 data-i18n="aboutTitle">ДВИЖЕНИЕ —<br><em>ЭТО СИСТЕМА.</em></h2><p data-i18n="aboutText">Я Renat. Работаю с физической подготовкой, функциональным движением и восстановлением. В основе моего подхода — оценка исходного уровня, понятный план, техника и постепенный прогресс.</p><div class="credentials"><span data-i18n="credBadminton">10+ YEARS BADMINTON</span><span data-i18n="credFtvS">FTVS UK</span><span data-i18n="credMsmt">MŠMT</span><span data-i18n="credWork">TRAINING · REHAB · MASSAGE</span></div><div class="signature">RENAT <span>/ COACH</span></div><a class="underlink" href="#booking" data-i18n="aboutCta">Обсудить свои цели ↗</a></div>
+    </section>
+
+        <section class="quiz-section" id="quiz">
+      <div class="quiz-card"><div class="kicker"><i></i><span data-i18n="quizKicker">FIND YOUR FORMAT</span></div><h2 data-i18n="quizTitle">НЕ ЗНАЕШЬ,<br><em>С ЧЕГО НАЧАТЬ?</em></h2><p data-i18n="quizIntro">Ответь на несколько вопросов, и сайт предложит наиболее подходящее направление.</p><div id="quiz"></div></div>
+    </section>
+
+    <section class="section pricing" id="pricing">
+      <div class="section-head"><div><div class="kicker"><i></i><span data-i18n="pricingKicker">ПАКЕТЫ</span></div><h2 data-i18n="pricingTitle">ВЫБЕРИ СВОЙ<br><em>РИТМ.</em></h2></div><p data-i18n="pricingIntro">Пакеты персональных тренировок рассчитаны на регулярную работу. Подробности и расписание согласуем перед оплатой.</p></div>
+      <div class="price-cards">
+        <article><span data-i18n="personal01">01 / PERSONAL</span><h3>8 + 1</h3><p data-i18n="pack1">8 тренировок + 1 бонусная</p><strong class="price-value">6 990 Kč</strong><button class="text-button add-cart" data-item="Personal Training 8+1" data-price="6990" data-i18n="addCart">Добавить в заказ ↗</button></article>
+        <article><span data-i18n="personal02">02 / PERSONAL</span><h3>10 + 2</h3><p data-i18n="pack2">10 тренировок + 2 бонусные</p><strong class="price-value">7 990 Kč</strong><button class="text-button add-cart" data-item="Personal Training 10+2" data-price="7990" data-i18n="addCart">Добавить в заказ ↗</button></article>
+        <article><span data-i18n="personal03">03 / PERSONAL</span><h3>12 + 3</h3><p data-i18n="pack3">12 тренировок + 3 бонусные</p><strong class="price-value">8 990 Kč</strong><button class="text-button add-cart" data-item="Personal Training 12+3" data-price="8990" data-i18n="addCart">Добавить в заказ ↗</button></article>
+      </div>
+      <div class="other-prices"><article><span>R2 GROUP</span><b>3 300 Kč</b><small data-i18n="groupPrice">12 занятий / месяц</small><button class="mini-add add-cart" data-item="R2 Group" data-price="3300" data-i18n="addCartShort">Добавить</button></article><article><span>NUTRITION</span><b>490 Kč</b><small data-i18n="nutritionPrice">План питания</small><button class="mini-add add-cart" data-item="Nutrition" data-price="490" data-i18n="addCartShort">Добавить</button></article><article><span>ONLINE PROGRAMS</span><b>590 Kč</b><small data-i18n="onlinePrice">Онлайн-программа</small><button class="mini-add add-cart" data-item="Online Program" data-price="590" data-i18n="addCartShort">Добавить</button></article></div>
+    </section>
+
+    <section class="section massage-section" id="massage">
+      <div class="section-head"><div><div class="kicker"><i></i><span data-i18n="massageKicker">MASSAGE MENU</span></div><h2 data-i18n="massageTitle">ВОССТАНОВЛЕНИЕ<br><em>ПОД ТЕБЯ.</em></h2></div><p data-i18n="massageIntro">Выбери процедуру и длительность. Пакеты можно использовать для разных видов массажа.</p></div>
+      <div class="massage-grid">
+        <article><span>RELAX</span><h3 data-i18n="relaxTitle">Расслабляющий</h3><p data-i18n="relaxText">Мягкая работа для снижения общего напряжения и восстановления после насыщенного дня.</p><div class="massage-prices"><b data-i18n="relax60">60 min · 1 290 Kč</b><b data-i18n="relax90">90 min · 1 790 Kč</b></div><button class="add-cart" data-item="Relax Massage 60 min" data-price="1290" data-i18n="addCart">Добавить в заказ ↗</button></article>
+        <article><span>SPORT</span><h3 data-i18n="sportTitle">Спортивный</h3><p data-i18n="sportText">Более глубокая работа с мышцами с учётом тренировочной нагрузки и ощущения усталости.</p><div class="massage-prices"><b data-i18n="sport60">60 min · 1 490 Kč</b><b data-i18n="sport90">90 min · 1 990 Kč</b></div><button class="add-cart" data-item="Sports Massage 60 min" data-price="1490" data-i18n="addCart">Добавить в заказ ↗</button></article>
+        <article><span>HONEY</span><h3 data-i18n="honeyTitle">Медовый</h3><p data-i18n="honeyText">Интенсивная техника с мёдом, ориентированная на локальную работу и ощущение лёгкости.</p><div class="massage-prices"><b data-i18n="honey60">60 min · 1 390 Kč</b><b data-i18n="honey90">90 min · 1 890 Kč</b></div><button class="add-cart" data-item="Honey Massage 60 min" data-price="1390" data-i18n="addCart">Добавить в заказ ↗</button></article>
+        <article><span>RECOVERY</span><h3 data-i18n="recoveryTitle">Восстановительный</h3><p data-i18n="recoveryText">Комбинация мягких и более глубоких техник под текущую нагрузку и состояние тела.</p><div class="massage-prices"><b data-i18n="recovery60">60 min · 1 490 Kč</b><b data-i18n="recovery90">90 min · 1 990 Kč</b></div><button class="add-cart" data-item="Recovery Massage 60 min" data-price="1490" data-i18n="addCart">Добавить в заказ ↗</button></article>
+      </div>
+      <div class="massage-pack"><div><span>R2 RECOVERY PACK</span><h3 data-i18n="massagePackTitle">ПАКЕТЫ 60 МИНУТ</h3><p data-i18n="massagePackText">Можно комбинировать Relax, Sport, Honey и Recovery.</p></div><div class="pack-options"><button class="pack-choice add-cart" data-item="Massage Pack 5 × 60 min" data-price="6490"><strong>5 × 60</strong><span data-i18n="massagePack5">6 490 Kč</span></button><button class="pack-choice featured add-cart" data-item="Massage Pack 10 × 60 min" data-price="11990"><strong>10 × 60</strong><span data-i18n="massagePack10">11 990 Kč</span></button><button class="pack-choice add-cart" data-item="Massage Pack 15 × 60 min" data-price="16990"><strong>15 × 60</strong><span data-i18n="massagePack15">16 990 Kč</span></button></div></div>
+    </section>
+
+    <section class="gift-section" id="gift"><div class="gift-copy"><div class="kicker"><i></i><span data-i18n="giftKicker">GIFT CARD</span></div><h2 data-i18n="giftTitle">ПОДАРИ<br><em>RECOVERY.</em></h2><p data-i18n="giftText">Сертификат на массаж или тренировку. После заявки согласуем услугу, имя получателя и оформление.</p><a class="btn btn-white" href="#booking" data-i18n="giftCta">Заказать сертификат ↗</a></div><div class="gift-card"><div>R2</div><strong>RENAT RECOVERY</strong><span data-i18n="giftCardLabel">GIFT CARD</span><small data-i18n="slogan">KEEP MOVING</small></div></section>
+
+    <section class="booking" id="booking">
+      <div class="booking-copy"><div class="kicker"><i></i><span data-i18n="bookingKicker">СЛЕДУЮЩИЙ ШАГ</span></div><h2 data-i18n="bookingTitle">НАЧНЁМ<br><em>ДВИГАТЬСЯ?</em></h2><p data-i18n="bookingText">Добавь услуги в заказ или оставь обычную заявку. После отправки я свяжусь с тобой для подтверждения времени и оплаты.</p><div class="contact-lines"><a href="mailto:renat.recovery@gmail.com">renat.recovery@gmail.com</a><a href="tel:+420725096860">+420 725 096 860</a></div></div>
+      <form id="bookingForm"><label><span data-i18n="formName">ИМЯ</span><input name="name" required autocomplete="name" placeholder="Твоё имя" data-i18n-placeholder="placeholderName"></label><label><span data-i18n="formContact">ТЕЛЕФОН ИЛИ EMAIL</span><input name="contact" required placeholder="+420 / email" data-i18n-placeholder="placeholderContact"></label><label><span data-i18n="formMessage">СООБЩЕНИЕ</span><textarea name="message" rows="3" placeholder="Цели, удобные дни, вопросы..." data-i18n-placeholder="placeholderMessage"></textarea></label><div class="form-actions"><button class="btn btn-white submit" type="submit"><span data-i18n="send">Отправить заявку</span> ↗</button><button class="btn btn-ghost" type="button" id="clearCart" data-i18n="clearCart">Очистить заказ</button></div><p id="formStatus" class="form-status" aria-live="polite"></p></form>
+    </section>
+  </main>
+
+  <footer id="contact"><a class="brand footer-brand" href="#top">RENAT RECOVERY</a><div class="footer-contacts"><a href="mailto:renat.recovery@gmail.com">renat.recovery@gmail.com</a><a href="tel:+420725096860">+420 725 096 860</a><a href="https://www.google.com/maps/search/?api=1&query=Fajtlova+1090%2F1%2C+161+00+Praha+6" target="_blank" rel="noopener">GymStory Prague 6 · Fajtlova 1090/1</a></div><div class="footer-bottom"><span>© <span id="year"></span> RENAT RECOVERY</span><span data-i18n="footerLocation">PRAGUE · CZECH REPUBLIC</span><a href="#top" data-i18n="backTop">BACK TO TOP ↑</a></div></footer>
+
+  <aside class="cart" id="cart" aria-label="Order cart"><div class="cart-head"><strong data-i18n="cartTitle">ВАШ ЗАКАЗ</strong><button id="cartClose" aria-label="Close">×</button></div><div id="cartItems"></div><div class="cart-total"><span data-i18n="cartTotal">ИТОГО</span><strong id="cartTotal">0 Kč</strong></div><a class="btn btn-white" href="#booking" id="cartCheckout" data-i18n="cartCheckout">Перейти к заявке ↗</a></aside>
+  <button class="cart-fab" id="cartFab" aria-label="Open cart"><span>R2</span><b id="cartCount">0</b></button>
+
+  <dialog id="serviceDialog"><button class="dialog-close" id="dialogClose" aria-label="Close">×</button><div class="dialog-kicker" id="dialogKicker">R2 / SERVICE</div><h2 id="dialogTitle"></h2><p id="dialogText"></p><ul id="dialogBullets"></ul><a class="btn btn-white" href="#booking" id="dialogCta">Записаться ↗</a></dialog>
+  <script src="app.js"></script>
+</body>
+</html>
