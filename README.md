@@ -1,3 +1,1 @@
-# R2 RenatRecovery
-
-Website for R2 RenatRecovery Prague.
+RenatRecovery website revision 05: full-color photos + refined dark-theme logo.

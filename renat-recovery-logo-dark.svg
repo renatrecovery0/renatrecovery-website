@@ -4,10 +4,10 @@
 <g transform="translate(300 18)">
 <path d="M0 76 L112 0 L112 48 L44 94 L44 140 L0 110 Z" fill="#FFC400"/>
 <path d="M64 94 L176 18 L176 66 L108 112 L108 158 L64 128 Z" fill="#F28A00"/>
-<path d="M128 158 L240 82 L240 130 L172 176 L172 222 L128 192 Z" fill="#F4F4F1"/>
+<path d="M128 158 L240 82 L240 130 L172 176 L172 222 L128 192 Z" fill="#8E949C"/>
 </g>
-<text x="450" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" letter-spacing="5"><tspan fill="#FF9D00">RENAT</tspan><tspan fill="#F4F4F1"> RECOVERY</tspan></text>
-<line x1="170" y1="326" x2="335" y2="326" stroke="#F4F4F1" stroke-width="3"/>
-<text x="450" y="335" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="600" letter-spacing="10" fill="#F4F4F1">KEEP MOVING</text>
-<line x1="565" y1="326" x2="730" y2="326" stroke="#F4F4F1" stroke-width="3"/>
+<text x="450" y="285" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" letter-spacing="5"><tspan fill="#FF9D00">RENAT</tspan><tspan fill="#D8DADD"> RECOVERY</tspan></text>
+<line x1="170" y1="326" x2="335" y2="326" stroke="#D8DADD" stroke-width="3"/>
+<text x="450" y="335" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="600" letter-spacing="10" fill="#D8DADD">KEEP MOVING</text>
+<line x1="565" y1="326" x2="730" y2="326" stroke="#D8DADD" stroke-width="3"/>
 </svg>
